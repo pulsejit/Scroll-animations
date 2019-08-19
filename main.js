@@ -30,5 +30,7 @@ var scene = new ScrollMagic.Scene({
     triggerElement: this,
 })
 
+.addIndicators()
+
 .setTween(animateIn).addTo(controller)
 })
